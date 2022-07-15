@@ -4,6 +4,7 @@ const commonInteract = {};
 
 // TODO 
 export const main = Reach.App(() => {
+    setOptions({ untrustworthyMaps: true });
     const User1 = Participant('User1', {});
     const User2   = Participant('User', { show: Fun(true, Null) });
     init();
